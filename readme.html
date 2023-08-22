@@ -1,0 +1,25 @@
+<h1>convertmd</h1>
+
+<p>uber simple commandline app convertmd converts markdown to html and text</p>
+
+<h2>build</h2>
+
+<pre><code class="language-bash">go mod tidy
+go build -o convertmd main.go
+</code></pre>
+
+<h2>usage</h2>
+
+<pre><code class="language-bash">./convertmd -input INPUT_FILE.md -output OUTPUT_FILE
+</code></pre>
+
+<h2>example</h2>
+
+<pre><code class="language-bash">./convertmd -input README.md -output NEW_README
+</code></pre>
+
+<p>output will be two new files converted from README.md to html and text:</p>
+
+<pre><code class="language-bash">NEW_README.html
+NEW_README.txt
+</code></pre>
