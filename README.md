@@ -27,3 +27,6 @@ output will be two new files converted from README.md to html and text:
 NEW_README.html
 NEW_README.txt
 ```
+
+
+NOTE: The readme.txt and readme.html files in this repo were generated using this tool.
